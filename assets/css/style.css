@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(to bottom right, #FDABDD, #374A5A); 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.card img{
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 100px blue);
+}
+
+#firstDiv{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+#filterinput{
+    
+    /* width: 200px; */
+    height: 35px;
+}
+.buttons{
+    float: right;
+}
+
+#edit:hover{
+    background: linear-gradient(to bottom right, #FF3E9D, #0E1F40);
+}
+
+#save:hover{
+    background: linear-gradient(to bottom right, #FF3E9D, #0E1F40);
+}
+.card:hover{
+   filter: blur(0);
+   transform: rotate(20deg);
+}
+.card{
+    filter: blur(4px);
+    transition: 500ms ease-in-out;
+}
+
+#firstDiv{
+    background: linear-gradient(to bottom right, #FF3E9D, #0E1F40);
+}
+
+/* #secondDiv{
+    background: linear-gradient( #19d7d4, #07f9f5);
+    background: linear-gradient(to bottom right, #5761B2, #1FC5A8);
+} */
+#edit{
+    width:150px;
+}
+#save{
+    width:150px;
+}
